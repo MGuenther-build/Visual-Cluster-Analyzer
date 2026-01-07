@@ -6,6 +6,10 @@ Dieses Projekt gruppiert Bilder automatisch nach visueller Ähnlichkeit — ganz
 
 ---
 
+![Startseite des Wettershops](https://www.mguenther-build.de/static/VCA.png)
+
+---
+
 ## 🎯 Projektziel
 
 - Automatisches Clustering von Bildern basierend auf visuellen Merkmalen
