@@ -39,12 +39,13 @@ Dieses Projekt gruppiert Bilder automatisch nach visueller Ähnlichkeit — ganz
 
 ```
 visual-cluster-analyzer/
+├── main.py
 ├── app
-├── static
-├── templates
-├── data
-├── results
-└── main.py
+    ├── static
+    ├── templates
+    ├── data
+    ├── results
+    └── routes.py
 ```
 ---
 
