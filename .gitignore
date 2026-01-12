@@ -1,0 +1,9 @@
+.env
+launch.json
+desktop.ini
+/*.png
+/*.jpg
+/*.jpeg
+/*.webp
+__pycache__/
+**/venv/

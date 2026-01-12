@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang ="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Visual Cluster Analyzer - Martin Günther">
+    <title>{% block title %}Visual Cluster Analyzer{% endblock %}</title>
+    <link rel="preload" href="{{ url_for('static', filename='Wallpaper.webp') }}" as="image">
+    <link rel="preload" href="{{ url_for('static', filename='styles.css') }}" as="style">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Martin Günther",
+        "jobTitle": "Softwareentwickler",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Berlin",
+            "addressCountry": "DE"
+        },
+        "url": "https://www.mguenther-build.de",
+        "sameAs": [ "https://github.com/MGuenther-build" ]
+        }
+    </script>
+</head>
+<body>
+    <h1>AI Visual Cluster Analyzer</h1>
+    <p>App läuft!</p>
+</body>
+</html>
