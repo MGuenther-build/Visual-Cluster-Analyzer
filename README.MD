@@ -6,11 +6,11 @@ Dieses Projekt gruppiert Bilder automatisch nach visueller Ähnlichkeit — ganz
 
 ---
 
-![Startseite des Wettershops](https://www.mguenther-build.de/static/VCA.png)
+![Beispielbild](https://www.mguenther-build.de/static/VCA.png)
 
 ---
 
-## 🎯 Projektziel
+## Projektziel
 
 - Automatisches Clustering von Bildern basierend auf visuellen Merkmalen
 - Anwendung von Machine Learning ohne vorherige Klassifizierung (unsupervised learning)
@@ -19,14 +19,14 @@ Dieses Projekt gruppiert Bilder automatisch nach visueller Ähnlichkeit — ganz
 
 ---
 
-## 🧠 KI-Techniken
+## KI-Techniken
 
 - **KMeans** für die Clusterbildung  
 - **PCA** zur Dimensionalitätsreduktion und Visualisierung
 
 ---
 
-## 🛠️ Verwendete Technologien
+## Verwendete Technologien
 
 | Backend        | Frontend           | ML & Visualisierung     |
 |----------------|--------------------|--------------------------|
@@ -35,7 +35,7 @@ Dieses Projekt gruppiert Bilder automatisch nach visueller Ähnlichkeit — ganz
 
 ---
 
-## 📦 Projektstruktur (Auszug)
+## Projektstruktur (Auszug)
 
 ```
 visual-cluster-analyzer/
@@ -49,20 +49,10 @@ visual-cluster-analyzer/
 ```
 ---
 
-## 🚀 Ablaufidee
+## Ablaufidee
 
 1. **Upload** von beliebigen Bildern  
 2. **Feature-Extraktion** und Reduktion der Bilddaten  
 3. **Clustering** mit KMeans  
 4. **Visualisierung** der Cluster in der Web-Oberfläche  
 5. **Download** der geordneten Bildergruppen
-
----
-
-## 📌 Status
-
-🧪 In Entwicklung 
-🔜 Erweiterungen geplant (z. B. Deep Features, UI-Verbesserungen)
-
----
-
